@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Meta data, link to Bootstrap, title, and styling-->
+      <meta charset="utf-8">
+      <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <title>App Inventor Project</title>
+      <!--Styles buttons to move down slightly when pressed-->
+      <style>
+        a:active {
+          position:relative;
+          top:4px;
+        }
+      </style>
+    </head>
+    <body>
+      <!--Navigation Bar-->
+      <div class="container">
+        <nav class="nav nav-pills nav-fill">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="Kangwai_AboutMe.html">About Me</a>
+          <a class="nav-item nav-link" href="Kangwai_Resumé.html">Resumé</a>
+          <!--Active class makes this navigation item highlighted-->
+          <a class="nav-item nav-link active" href="Kangwai_Projects.html">Projects</a>
+          <a class="nav-item nav-link" href="Kangwai_ContactMe.html">Contact Me</a>
+        </nav>
+      </div>
+      <br>
+      <!--Button to return to projects page: Information from Bootstrap was used to help code this section-->
+      <div class="container">
+        <a href="Kangwai_Projects.html" class="btn btn-primary btn-sm active" aria-pressed="true" role="button">Back to Projects
+        </a>
+      </div>
+      <br>
+      <!--Main text and content-->
+      <div class="container">
+        <h3>App Inventor Project: Space Invaders</h3>
+        <p>From September to October 2019, Pranav Guda and I created a mini-game based off the shooting game Space Invaders. Our version of the game has an Area 51 theme, and you must stop "Naruto runners" from reaching Area 51.</p>
+        <!--Line breaks to create spaces between paragraphs-->
+        <br>
+        <p>In this game, your character is a fictional Area 51 guard. Naruto runners, with two different costumes, will come down and try to reach Area 51. Your job, as the player, is to prevent this from happening by shooting the Naruto runners as they appear, in a fashion similar to the classic game Space Invaders. You earn points for each kill, and as you do, the Naruto runners will change direction to provide an extra challenge. The aim is to garner as many points as you can.
+        <br>
+        <!--Italicized note-->
+        <p><em>Note: This mini-game is currently not available to the public for playing. Sorry for the inconvenience.</em></p>
+      </div>
+      <div class="container">
+        <!--Figure-->
+        <figure>
+          <!--Image-->
+          <img src="Images/Space_Invaders.png" class="img" max-height="100px" max-width="100px" clear="both" alt="An image of the Space Invaders mini-game">
+          <!--Image caption-->
+          <figcaption>The Space Invaders mini-game with an Area 51 theme</figcaption>
+        </figure>
+      </div>
+      <br>
+      </div>      
+      <!--footer with media icons-->
+      <footer class="container">
+        <div class="jumbotron">
+          <!--Progress Bar: Information from Bootstrap was used to help create this component-->
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+          </div>
+          <br>
+          <!--Horizontal Arrangement-->
+          <div class="row">
+            <!--Gmail Icon-->
+              <div class="col-3">
+                <a href="mailto:kangwai0049@mydusd.org">
+                  <img src="Images/logo-gmail.jpg" style="max-width:100px;">
+                </a>
+              </div>
+              <!--Discord Icon-->
+              <div class="col-3">
+                <a href="https://www.discordapp.com">
+                <img src="Images/Discord-Icon.jpg" alt="Social Media Icon" style="max-width:100px;">
+                </a>
+              </div>
+              <!--Dublin High School Icon-->
+            <div class="col-5">
+              <a href="http://www.dublin.k12.ca.us">
+                <img class="float-right" src="Images/DHS2.png" style="max-width:100px;">
+              </a> 
+            </div> 
+          </div>
+          <!--Progress Bar: Information from Bootstrap was used to help create this component-->
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
